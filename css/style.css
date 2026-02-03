@@ -1,0 +1,74 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background-color: #FA5E6C
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.btn.get-started {
+  background-color: #FA5E6C
+}
+
+#navbar {
+  padding-top: 4rem;
+}
+
+.free-button {
+  border-color: #FA5E6C;
+  color: #FA5E6C;
+}
+
+.footer-credit a {
+  color: black; 
+  text-decoration: underline;
+}
+
+.footer-credit a:hover {
+  color: #ff7a85;
+}
+
+.tour-item {
+  height: 100%;
+}
+
+.tour-desc {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home-testimonial,
+.home-testimonial-bottom,
+.testimonial-inner {
+  height: auto;
+  position: static;
+}
+.home-testimonial h3{color: var(--orange);font-size: 14px;font-weight: 500;text-transform: uppercase}
+.home-testimonial h2{color: white;}
+.testimonial-inner .tour-desc{border-radius: 5px;padding: 40px}
+.color-grey-3{font-family: "Montserrat", Sans-serif;font-size: 14px;color: #6c83a2}
+.testimonial-inner img.tm-people{width: 100px;height: 100px;-webkit-border-radius: 50%;border-radius: 50%;-o-object-fit: cover;object-fit: cover;max-width: none}
