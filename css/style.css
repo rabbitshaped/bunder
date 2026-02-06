@@ -16,6 +16,10 @@
   }
 }
 
+.navbar {
+    background: transparent;
+}
+
 .icon-square {
   width: 3rem;
   height: 3rem;
@@ -32,9 +36,6 @@
   background-color: #FA5E6C
 }
 
-#navbar {
-  padding-top: 4rem;
-}
 
 .free-button {
   border-color: #FA5E6C;
